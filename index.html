@@ -1,1 +1,122 @@
-Hello World
+---
+layout: page
+tagline:
+---
+
+{% for post in paginator.posts %}
+
+<article class="home">
+
+  <span class="post-date">
+    {% assign d = post.date | date: "%d" | plus:'0' %}
+    {{ post.date | date: "%B" }}
+    {% case d %}
+    {% when 1 or 21 or 31 %}{{ d }}st,
+    {% when 2 or 22 %}{{ d }}nd,
+    {% when 3 or 23 %}{{ d }}rd,
+    {% else %}{{ d }}th,
+    {% endcase %}
+    {{ post.date | date: "%Y" }}
+  </span>
+
+  <h2>
+    <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+  </h2>
+
+  <div>
+    {% if post.fullview %}
+    {{ post.content }}
+    {% else %}
+    {% if post.shortinfo %}
+    {{ post.shortinfo }}
+    {% elsif post.description %}
+    {{ post.description }}
+    {% else %}
+    {{ post.excerpt }}
+    {% endif %}
+    {% endif %}
+  </div>
+
+</article>
+{% endfor %}
+
+<div class="Bio">
+    <header>
+        <h1 margin="0px"><i class="fa fa-paperclip"></i> About me</h1>
+    </header>
+    <p>
+    Yue Cao is currently a PhD candidate in Institute of Information System and Engineering, School of Software, Tsinghua University, under supervision of Prof. <a href="http://www.thss.tsinghua.edu.cn/publish/soft/3641/2010/20101214090035662150715/20101214090035662150715_.html">Jianmin Wang</a> and Doctor <a href="http://ise.thss.tsinghua.edu.cn/~mlong/"> Mingsheng Long</a>. He received his bachelor degree of Science majoring in Computer Software in Tsinghua University in July, 2014. His research interests are Deep Learning, Transfer Learning and Large Scale Similarity Search.
+    </p>
+</div>
+
+<div class="Research Interests">
+    <header>
+        <h1><i class="fa fa-fire"></i> Research Interests</h1>
+    </header>
+    <p>
+    Deep Learning, Transfer Learning, Large Scale Similarity Search
+    </p>
+</div>
+
+
+<div class="News">
+    <header>
+        <h1><i class="fa fa-bolt"></i> News</h1>
+    </header>
+    <p>
+    <i class="fa fa-bolt"></i>
+    2015.11 Our paper "Deep Quantization Network for Efficient Image Retrieval" got accepted by AAAI 2016.
+    </p>
+    <p>
+    <i class="fa fa-bolt"></i>
+    2015.11 Our paper "Deep Hashing Network for Efficient Similarity Retrieval" got accepted by AAAI 2016.
+    </p>
+</div>
+
+<div class="Publications">
+    <header>
+        <h1><i class="fa fa-file"></i> Publications</h1>
+    </header>
+    <ol>
+        <li><p>
+            <strong>Deep Quantization Network for Efficient Image Retrieval</strong>
+            <br>
+            <strong>Yue Cao</strong>, Mingsheng Long*, Han Zhu, Qingfu Wen, Jianmin Wang
+            <br>
+            <em>AAAI Conference on Artificial Intelligence (<a href="http://www.aaai.org/Conferences/AAAI/aaai16.php"><strong>AAAI</strong></a>)</em>, 2016
+            [<a href="doc/dqn-aaai16.pdf">PDF</a>] [<a href="doc/dqn-aaai16.zip">Code</a>] (Accepted)
+        </p></li>
+        <li><p>
+            <strong>Deep Hashing Network for Efficient Similarity Retrieval</strong>
+            <br>
+            Han Zhu, Mingsheng Long*, <strong>Yue Cao</strong>, Jianmin Wang
+            <br>
+            <em>AAAI Conference on Artificial Intelligence (<a href="http://www.aaai.org/Conferences/AAAI/aaai16.php"><strong>AAAI</strong></a>)</em>, 2016
+            [<a href="doc/dhn-aaai16.pdf">PDF</a>] [<a href="doc/dhn-aaai16.zip">Code</a>] (Accepted)
+        </p></li>
+
+        <li>
+            <p><strong>Learning Transferable Features with Deep Adaptation Networks</strong><br>
+            Mingsheng Long*, <strong>Yue Cao</strong>, Jianmin Wang, Michael I. Jordan<br>
+            <em>International Conference on Machine Learning (<a href="http://icml.cc/2015/"><strong>ICML</strong></a>)</em>, 2015
+            [<a href="doc/deep-adaptation-networks-icml15.pdf">PDF</a>] [<a href="doc/deep-adaptation-networks-slides-icml15.pdf">Slides</a>] [<a href="mailto:longmingsheng@gmail.com">Code</a>]</p>
+        </li>
+    </ol>
+</div>
+
+<div class="honors">
+    <header>
+        <h1><i class="fa fa-trophy"></i> Honors and Awards</h1>
+    </header>
+    <li><p>
+    Scholarships.
+    </p></li>
+</div>
+
+<br>
+<br>
+<br>
+<div>
+    <a href="http://www.clustrmaps.com/map/caoyue92.com" title="Visitor Map for caoyue92.com"><img src="//www.clustrmaps.com/map_v2.png?u=EakA&d=ju1WOIxLszzjK4HDiYSK8u4BFVLPn83HK95gxcil4Lw" /></a>
+</div>
+

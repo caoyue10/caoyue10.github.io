@@ -1,0 +1,34 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: dbyll
+google_analytics: dbyll
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Homepage
+
+description: Homepage of Cao Yue
+author:
+  name: Cao Yue
+  weibo: "http://weibo.com/u/2240280470"
+#github: dbtek
+#twitter: dbtek
+#pinterest: asd123
+  linkedin: 越-曹-409a1532
+  email: caoyue10@gmail.com
+  bio: Stay hungry, stay foolish!
+#email_md5: 726351295ec82e145928582f595aa3aa
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
