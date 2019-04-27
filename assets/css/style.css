@@ -9,6 +9,9 @@ body{
     margin: 0 auto;
     width: 60%;
 }
+.div_left, .div_right {
+    width: 49%;
+}
 
 /* .sidebar {
 	position: fixed;
