@@ -19,12 +19,11 @@ description: Homepage of Cao Yue
 author:
   name: Cao Yue
   weibo: "http://weibo.com/u/2240280470"
-#github: caoyue10
+  github: caoyue10
 #twitter: dbtek
 #pinterest: asd123
   linkedin: yue-cao-409a1532
   email: caoyue10@gmail.com
-  bio: Stay hungry, stay foolish!
 #email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
