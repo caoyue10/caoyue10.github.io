@@ -15,6 +15,7 @@ body{
 }
 .div_right {
     width: 49%;
+    float: right;
 }
 
 /* .sidebar {
