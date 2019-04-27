@@ -9,7 +9,11 @@ body{
     margin: 0 auto;
     width: 60%;
 }
-.div_left, .div_right {
+.div_left {
+    width: 49%;
+    float: left;
+}
+.div_right {
     width: 49%;
 }
 
