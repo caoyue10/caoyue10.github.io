@@ -5,7 +5,8 @@ body{
     font-weight: 400;
 	color: #2c3e50;
     font-family: Tahoma, Arial, sans-serif;
-    padding-top: 10%;
+    padding-top: 5px;
+    margin: 0 auto;
     width: 60%;
 }
 
