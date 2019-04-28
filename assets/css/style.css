@@ -7,14 +7,13 @@ body{
     font-family: Tahoma, Arial, sans-serif;
     padding-top: 2%;
     margin: 0 auto;
-    width: 60%;
 }
 .div_left {
-    width: 49%;
+    width: 40%;
     float: left;
 }
 .div_right {
-    width: 49%;
+    width: 60%;
     float: right;
 }
 
