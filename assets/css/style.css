@@ -39,9 +39,6 @@ div.div_left, div.div_right {
     vertical-align: middle;
     max-width: 960px;
 }
-div.div_left {
-    width: 200px;
-}
 
 /* .sidebar {
 	position: fixed;
