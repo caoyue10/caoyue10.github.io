@@ -7,7 +7,7 @@ body {
     font-family: Tahoma, Arial, sans-serif;
 /*     margin: 0 auto; */
 }
-col-sm-6 {
+div.body {
     display: inline-block;
     zoom: 1;
     display*: inline;
