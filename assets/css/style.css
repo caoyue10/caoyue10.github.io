@@ -57,6 +57,9 @@ div.div_left, div.div_right {
     max-width: 960px;
 }
 
+span.highlight {
+    color: #BB2222;
+}
 
 a.nav-link {
 	padding-bottom: 5px;
