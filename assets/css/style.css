@@ -27,7 +27,7 @@ div.heading {
     z-index: 1;
 }
 div.heading div.div_left {
-    padding: 30px 30px 30px 10px;
+    padding: 30px 10px 30px 10px;
     max-width: 25%;
 }
 div.div_left, div.div_right {
