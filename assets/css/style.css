@@ -16,6 +16,8 @@ div.ccontent {
     vertical-align: middle;
     max-width: 960px;
     min-width: 330px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 /* .div_left {
     width: 40%;
