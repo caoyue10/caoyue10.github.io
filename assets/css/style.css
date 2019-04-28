@@ -40,7 +40,7 @@ div.heading {
 div.heading div.div_left {
     padding: 30px 10px 30px 10px;
     max-width: 25%;
-    min-width: 150px;
+    min-width: 140px;
 }
 div.div_left, div.div_right {
     padding-left: 10px;
@@ -57,27 +57,6 @@ div.div_left, div.div_right {
     max-width: 960px;
 }
 
-/* .sidebar {
-	position: fixed;
-	top: 0px;
-	padding-top: 10%;
-	background-color: #2c3e50;
-	color: #fff;
-}
-
-.sidebar-header {
-	text-align: center;
-	margin-bottom: 10px;
-}
-.sidebar-header .title{
-	letter-spacing: 3px;
-	text-transform: uppercase;
-}
-
-.sidebar-header .title a{
-	text-decoration: none;
-	color: #fff;
-} */
 
 a.nav-link {
 	padding-bottom: 5px;
