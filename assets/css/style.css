@@ -16,6 +16,23 @@ body{
     width: 60%;
     float: right;
 }
+div.div_left, div.div_right {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div.div_left, div.div_right {
+    display: inline-block;
+    zoom: 1;
+    display*: inline;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    max-width: 960px;
+}
+div.div_left {
+    width: 200px;
+}
 
 /* .sidebar {
 	position: fixed;
