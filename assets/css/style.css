@@ -39,7 +39,7 @@ div.heading {
 }
 div.heading div.div_left {
     padding: 30px 10px 30px 10px;
-    max-width: 25%;
+    max-width: 20%;
     min-width: 150px;
 }
 div.div_left, div.div_right {
