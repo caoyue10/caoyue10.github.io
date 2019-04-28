@@ -16,6 +16,11 @@ body{
     width: 60%;
     float: right;
 } */
+img.img-circle {
+    max-width:100%;
+    height:auto;
+    display:block
+}
 div.heading {
     text-align: left;
     position: relative;
