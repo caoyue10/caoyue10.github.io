@@ -8,13 +8,22 @@ body{
     padding-top: 2%;
     margin: 0 auto;
 }
-.div_left {
+/* .div_left {
     width: 40%;
     float: left;
 }
 .div_right {
     width: 60%;
     float: right;
+} */
+div.heading {
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+div.heading div.img {
+    padding: 30px 30px 30px 10px;
+    max-width: 30%;
 }
 div.div_left, div.div_right {
     padding-left: 10px;
